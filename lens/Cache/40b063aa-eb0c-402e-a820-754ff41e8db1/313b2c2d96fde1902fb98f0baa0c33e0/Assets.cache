@@ -6,7 +6,7 @@
   SourceHash: 313b2c2d96fde1902fb98f0baa0c33e0
   FileHash: 77763f4493f47dbdac2a803b35a5f1ae
   NativePackageItems:
-    - !<own> 4d237e8f-ffb4-41b5-bd2e-ac36a6533f57
+    - !<own> 7c0d9383-b4e8-0ec2-b4ad-3d3660a63a44
     - !<own> a6c9a26a-d1ec-fe69-cd1f-c6ee590d8d34
     - !<own> 86319e39-e096-683b-6659-13cc549b79be
     - !<own> 0b63525c-0dda-a0a2-db39-623a85403b28
@@ -262,11 +262,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScreenTransform/014cf4d7-5e3d-4b85-a82b-d1bb8f8d14cc>
   PrefabRemaps:
     []
@@ -892,11 +888,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/07ac1d24-4758-4397-941b-fc8d515b4a9f>
   PrefabRemaps:
     []
@@ -1197,11 +1189,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<RenderMeshVisual/0c07d8da-0614-4715-ac01-99cc28a086ab>
   PrefabRemaps:
     []
@@ -1733,11 +1721,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/10b53011-b82a-4b2e-a4d3-e7198b4ed002>
   PrefabRemaps:
     []
@@ -3916,11 +3900,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<RenderMeshVisual/2818b530-887f-4798-b62c-b570ed058243>
   PrefabRemaps:
     []
@@ -4556,9 +4536,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/2d7ccde4-c228-441d-a368-32a611ca840e>
   PrefabRemaps:
     []
@@ -5923,11 +5901,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<RenderMeshVisual/3ce0a09f-dca1-4440-9a35-0e7c621b5795>
   PrefabRemaps:
     []
@@ -7079,11 +7053,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/4a3b4ee5-a73a-4480-bd63-ba3d9cc4535a>
   PrefabRemaps:
     []
@@ -7117,9 +7087,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/4a76c348-524f-4c6a-acab-03a2ea5b56d0>
   PrefabRemaps:
     []
@@ -7292,22 +7260,6 @@
     bottom: -0.750000
     right: 0.000000
     top: 0.750000
-- !<AssetImportMetadata/4d237e8f-ffb4-41b5-bd2e-ac36a6533f57>
-  ImportedAssetIds:
-    JsonAsset: !<reference> 2935a8d7-ff1e-4745-bd20-d9c2d26a484c
-  ImporterName: JsonAssetImporter
-  PrimaryAsset: !<reference> 2935a8d7-ff1e-4745-bd20-d9c2d26a484c
-  PackageType: NotAPackage
-  PackagePolicy: CannotBeUnpacked
-  ExtraData:
-    {}
-  AssetDataMap:
-    {}
-  DependentFiles:
-    []
-  ImporterSettings: !<AssetImporterSettings>
-    {}
-  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ObjectPrefab/4d686589-3925-4743-ac75-03ce8528a8b6>
   PackagePath: ""
   objects:
@@ -9546,11 +9498,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/62c47ffc-cd48-4684-8b42-f07581f129f6>
   PrefabRemaps:
     []
@@ -12135,6 +12083,22 @@
     - 9fb732a8-d0e5-4be2-8925-cb5f51b7a111: 3b3cf965-02ae-4852-8594-366abae1cae5
     - c40d15a7-d01f-4127-82f1-03123174460d: 17dfed12-a8f4-43d0-963e-9ee5a39a253b
   SourceState: !<own> 3a2bfe22-5c44-48c5-bcb0-a25d068a0260
+- !<AssetImportMetadata/7c0d9383-b4e8-0ec2-b4ad-3d3660a63a44>
+  ImportedAssetIds:
+    JsonAsset: !<reference> 2935a8d7-ff1e-4745-bd20-d9c2d26a484c
+  ImporterName: JsonAssetImporter
+  PrimaryAsset: !<reference> 2935a8d7-ff1e-4745-bd20-d9c2d26a484c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ObjectPrefabAssetData/7c425dbd-fedb-46d7-aaf0-b0e2f86dc570>
   SourceRemaps:
     - dbafa22c-f0c4-4df3-9042-f33b1c9f172e: c55db5b2-a885-44a6-8511-30eb500bc0ac
@@ -12388,11 +12352,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/7e654061-c29c-409a-be1d-52b894355c0b>
   PrefabRemaps:
     []
@@ -12663,11 +12623,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/7ff396dd-7ad9-4657-a46f-7130e9497124>
   PrefabRemaps:
     []
@@ -12928,11 +12884,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/82c5c81f-7e97-4979-9af5-7110da8e4811>
   PrefabRemaps:
     []
@@ -13563,11 +13515,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<Text/876049b5-a6df-4197-92cd-b908ec38ede1>
   PrefabRemaps:
     []
@@ -14124,9 +14072,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/8b2bffd2-f079-4e6c-a95d-c58a220d29c6>
   PrefabRemaps:
     []
@@ -15022,9 +14968,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/9410762d-51fc-405f-977d-d2d347c4dfff>
   PrefabRemaps:
     []
@@ -17276,11 +17220,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScreenTransform/a720225a-1997-428f-b889-7709847eaa0f>
   PrefabRemaps:
     []
@@ -20418,11 +20358,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/c6655638-a7d9-4c09-9c5a-d5996920ee3f>
   PrefabRemaps:
     []
@@ -21004,9 +20940,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/ccaab926-0a4e-4ca5-a91a-71cab8a5616d>
   PrefabRemaps:
     []
@@ -24150,11 +24084,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/f1dc9caf-007f-4778-8b5b-0934fde9671b>
   PrefabRemaps:
     []
