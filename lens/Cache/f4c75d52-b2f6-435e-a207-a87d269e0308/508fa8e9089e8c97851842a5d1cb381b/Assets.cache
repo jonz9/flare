@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    89e0f17d-da4b-4187-b189-d7645cc8a2d1: f4c75d52-b2f6-435e-a207-a87d269e0308/508fa8e9089e8c97851842a5d1cb381b/Data/frame2.png
+  Assets:
+    - !<FileTexture/89e0f17d-da4b-4187-b189-d7645cc8a2d1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 508fa8e9089e8c97851842a5d1cb381b
+  FileHash: 2da72d67d12e813aa6efd7afc039b068
+  NativePackageItems:
+    []

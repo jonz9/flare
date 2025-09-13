@@ -1,0 +1,8 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 2
+    values:
+      - SpectaclesInteractionKit.lspkg/package.native
+      - SpectaclesInteractionKitExamples.lspkg/package.native
+  options: 4
